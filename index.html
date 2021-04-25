@@ -25,23 +25,41 @@
                 <div class="col s12 m6">
                         <div class="card-panel ">
                             <h5>Text 1 Input</h5>
-                            <textarea id="text1" class="materialize-textarea"></textarea>
+                            <textarea id="text1" class="materialize-textarea">text message</textarea>
                             <label for="text1">Text 1</label>
                 </div>
                 </div>
             <div class="col s12 m6">
                     <div class="card-panel ">
                         <h5>Text 2 Input</h5>
-                        <textarea id="text2" class="materialize-textarea"></textarea>
+                        <textarea id="text2" class="materialize-textarea">data mining and text mining</textarea>
                         <label for="text2">Text 2</label>
             </div>
             </div>
             </div>
             <div class="row">
+                    <div class="card-panel center">
+                        <button class="btn waves-effect waves-light" onclick="checkAll()"> All</button>
+                    </div>
                     <div class="col s12 m12">
                             <div class="card-panel center">
-                                <button class="btn waves-effect waves-light" onclick="checkSimilarity()"> compare</button>
-                                <h5 ><span>Similarity score: </span><span id="similarity"></span></h5>
+                                <button class="btn waves-effect waves-light" onclick="checkCosine()"> compare</button>
+                                <h5 ><span>cosine: </span><span id="similarity"></span></h5>
+                            </div>
+
+                            <div class="card-panel center">
+                                <button class="btn waves-effect waves-light" onclick="checkDice()"> compare</button>
+                                <h5 ><span>dice: </span><span id="dice"></span></h5>
+                            </div>
+
+                            <div class="card-panel center">
+                                <button class="btn waves-effect waves-light" onclick="checkJaccard()"> compare</button>
+                                <h5 ><span>jaccard: </span><span id="jaccard"></span></h5>
+                            </div>
+
+                            <div class="card-panel center">
+                                <button class="btn waves-effect waves-light" onclick="checkOverlap()"> compare</button>
+                                <h5 ><span>overlap: </span><span id="overlap"></span></h5>
                             </div>
                         </div>
             </div>
