@@ -1,0 +1,20 @@
+{
+  "name": "textsimilaritychecker",
+  "version": "1.0.0",
+  "description": "- you can find blog post at https://medium.com/@eyuelwoldemichael/building-a-text-similarity-checker-using-cosine-similarity-in-javascript-and-html-75722d485703",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katinas15/textsimilaritychecker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katinas15/textsimilaritychecker/issues"
+  },
+  "homepage": "https://github.com/katinas15/textsimilaritychecker#readme"
+}
